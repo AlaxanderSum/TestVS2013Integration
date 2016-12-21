@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LINQ">
+  <DataContextMoniker Name="/LINQDataContext" />
+  <nestedChildShapes>
+    <classShape Id="809da928-fc32-4f81-b8c1-bf13cc3cb2e3" absoluteBounds="0.5, 0.75, 2, 3.1170068359375">
+      <DataClassMoniker Name="/LINQDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="32f65dba-aded-43ea-aa2d-762e977c9384" absoluteBounds="0.51500000000000012, 1.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="622afd95-09be-4339-8693-ecc5e5697c43" absoluteBounds="5, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/LINQDataContext/Taxi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7edacfd6-f5bc-4f76-bcf0-ed69b73aeada" absoluteBounds="5.015, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4ab29b73-cb5a-4e06-b7e0-d4297f10a9aa" absoluteBounds="2.75, 0.5, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/LINQDataContext/Driver" />
+      <nestedChildShapes>
+        <elementListCompartment Id="43637165-a372-4938-aec2-be997d9f334f" absoluteBounds="2.7649999999999997, 0.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.75 : 2.17390055338542); (5 : 2.17390055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LINQDataContext/Driver/Driver_Taxi" />
+      <nodes>
+        <classShapeMoniker Id="4ab29b73-cb5a-4e06-b7e0-d4297f10a9aa" />
+        <classShapeMoniker Id="622afd95-09be-4339-8693-ecc5e5697c43" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

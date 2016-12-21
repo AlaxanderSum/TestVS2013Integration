@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ezCab.master.cs" Inherits="WebAppAsg.ezCab" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+        
+<style type="text/css">
+       
+         html, body { min-height: 100%; }
+         body{
+            font-size:20px;
+            /*background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,255,255,1) 100%);*/
+            background-image:url(12.jpg);
+            background-repeat:no-repeat;
+            width:50%;
+            
+        }        
+
+    .auto-style1 {
+        width: 300px;
+    }
+
+    .auto-style2 {
+        text-align: center;
+        margin-left: 40px;
+    }
+
+</style>
+
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <h1 class="auto-style2"><strong>ezCab Taxi Company</strong></h1>
+        <table style="width:150%">
+            <tr>
+                <td class="auto-style1">
+                    <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" ImageSet="Msdn" NodeIndent="10" style="font-size: xx-large">
+                        <HoverNodeStyle BackColor="#CCCCCC" BorderColor="#888888" BorderStyle="Solid" Font-Underline="True" />
+                        <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" HorizontalPadding="5px" NodeSpacing="1px" VerticalPadding="2px" />
+                        <ParentNodeStyle Font-Bold="False" />
+                        <SelectedNodeStyle BackColor="White" BorderColor="#888888" BorderStyle="Solid" BorderWidth="1px" Font-Underline="False" HorizontalPadding="3px" VerticalPadding="1px" />
+                    </asp:TreeView>
+                </td>
+                <td> 
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder></td>
+                
+                
+            </tr>
+           
+           
+        </table>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        
+    </div>
+    </form>
+</body>
+</html>

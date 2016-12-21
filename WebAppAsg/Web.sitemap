@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Homepage.aspx" title="Home page"  description="homepage">
+      <siteMapNode url="~/HRManager/HRManageDriver.aspx" title="Driver Manager" description="Driver Manager"></siteMapNode>
+        <siteMapNode url="~/PromotionMaintenance.aspx" title="Promotion Maintenance"  description="PromotionMaintenance">
+          <siteMapNode url="~/SendPromotion.aspx" title="Send Promotion"  description="Send Promotion" />
+           </siteMapNode>
+          <siteMapNode url="~/AddPromotion.aspx" title="Add Promotion"  description="Add Promotion" />
+               <siteMapNode url="~/GenerateReport.aspx" title="Generate Report"  description="Generate Report">
+          <siteMapNode url="~/DailyReservationTransaction.aspx" title="Daily Sales Transaction Report"  description="DailyReservationTransaction" />
+        <siteMapNode url="~/YearlySalesReport.aspx" title="Yearly Sales Report"  description="YearlySalesReport" />
+        <siteMapNode url="~/Top3Customer.aspx" title="Top 3 Customer Exception Report"  description="Top3Customer" />
+        <siteMapNode url="~/Top3DayReport.aspx" title="Top 3 Most Profitable Day Exception Report" description="Top3DayReport"/>
+                 <siteMapNode url="~/Top3Route.aspx" title="Top 3 Route Exception Report" description="=Top3RouteReport"/>
+                 <siteMapNode url="~/MonthlyRsvReport.aspx" title="Monthly Reservation Report" description="Monthly Reservation Report by Number of Reservation"/>
+                 <siteMapNode url="~/DailyCancelledReservationReport.aspx" title="Daily Cancelled Reservation Report" description="Daily Cancelled Reservation Report"/>
+                 <siteMapNode url="~/Top 3 Driver.aspx" title="Top 3 Driver Report" description="Top 3 Driver Report"/>
+                 <siteMapNode url="~/WeeklySalesReport.aspx" title="Weekly Sales Report" description="Weekly Sales Report"/>
+
+               </siteMapNode>
+    </siteMapNode>
+</siteMap>
